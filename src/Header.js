@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header>
       <nav className="nav">
-        <img src="" className="nav-logo" />
+        <img src="./favicon.ico" className="nav-logo" />
         <ul className="nav-items">
           <li>Pricing</li>
           <li>About</li>
