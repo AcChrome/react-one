@@ -1,10 +1,11 @@
 import React from "react";
+import Icon from "./favicon.ico";
 
 export default function Header() {
   return (
     <header>
       <nav className="nav">
-        <img src="./favicon.ico" className="nav-logo" />
+        <img src={Icon} className="nav-logo" />
         <ul className="nav-items">
           <li>Pricing</li>
           <li>About</li>
