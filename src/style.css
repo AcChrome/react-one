@@ -1,6 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  padding: 0;
   font-family: Inter, sans-serif;
 }
 
@@ -12,24 +15,24 @@ nav {
   padding: 30px 25px;
 }
 
-nav--logo_text,
-nav--title {
+.nav--logo_text,
+.nav--title {
   margin: 0;
 }
 
-nav--logo_text {
+.nav--logo_text {
   margin-right: auto;
   color: #61dafb;
   font-weight: 700;
   font-size: 22px;
 }
 
-nav--title {
+.nav--title {
   color: #deebf8;
   font-weight: 600;
 }
 
-nav--icon {
+.nav--icon {
   height: 30px;
   margin-right: 7px;
 }
